@@ -101,13 +101,13 @@ resources:
 - name: repo
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/wangyun1517/concourse-tutorial.git
     branch: master
     ignore_paths: [ci/ci_image/*]
 - name: repo-image
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/wangyun1517/concourse-tutorial.git
     branch: master
     paths: [ci/ci_image/*]
 - name: ci-image

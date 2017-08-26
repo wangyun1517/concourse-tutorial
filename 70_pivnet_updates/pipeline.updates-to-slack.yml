@@ -34,7 +34,7 @@ resources:
 - name: tutorial-scripts
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/wangyun1517/concourse-tutorial.git
 
 jobs:
 - name: stemcells

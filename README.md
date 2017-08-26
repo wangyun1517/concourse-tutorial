@@ -55,7 +55,7 @@ Install Vagrant/Virtualbox.
 Fetch this tutorial and start a local Concourse server:
 
 ```
-git clone https://github.com/starkandwayne/concourse-tutorial.git
+git clone https://github.com/wangyun1517/concourse-tutorial.git
 cd concourse-tutorial
 vagrant box add concourse/lite --box-version $(cat VERSION)
 vagrant up
@@ -439,7 +439,7 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/wangyun1517/concourse-tutorial.git
 ```
 
 The resource name `resource-tutorial` is then used in the build plan for the job:

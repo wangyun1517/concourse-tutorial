@@ -53,7 +53,7 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/wangyun1517/concourse-tutorial.git
     branch: master
 
 - name: resource-deployment-manifest-stub

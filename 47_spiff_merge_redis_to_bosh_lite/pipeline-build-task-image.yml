@@ -14,7 +14,7 @@ resources:
 - name: resource-tutorial-section-47
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/wangyun1517/concourse-tutorial.git
     branch: master
 
 - name: task-docker-image
