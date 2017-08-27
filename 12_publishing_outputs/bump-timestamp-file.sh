@@ -6,9 +6,9 @@ set -x # print commands
 git clone resource-gist updated-gist
 
 cd updated-gist
-echo $(date) > bumpme
+echo $(date) > test-for-concourse
 
-git config --global user.email "nobody@concourse.ci"
+git config --global user.email "640238027@qq.com"
 git config --global user.name "Concourse"
 
 git add .
