@@ -8,7 +8,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: git@gist.github.com:4c3869c870f15d4a72b09b66e917e4b8.git
+    uri: git@github.com:wangyun1517/concourse-tutorial.git
     private_key: |
       -----BEGIN RSA PRIVATE KEY-----
       MIIJKgIBAAKCAgEA9renVNuhXzlQJiigfPlKQRlLI31ZV51V/5YSA1iqQrf9T9gy
