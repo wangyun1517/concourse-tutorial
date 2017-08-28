@@ -72,3 +72,21 @@ jobs:
     file: resource-tutorial/12_publishing_outputs/bump-timestamp-file.yml
   - put: resource-gist
     params: {repository: updated-gist}
+
+- name: job-show-date
+  plan:
+  - get: resource-tutorial
+  - get: resource-gist
+    passed: [job-bump-date]
+    trigger: true
+  - task: show-date
+    config:
+      platform: linux
+      image_resource:
+        type: docker-image
+        source: {repository: busybox}
+      inputs:
+        - name: resource-gist
+      run:
+        path: cat
+        args: [resource-gist/version__file]
