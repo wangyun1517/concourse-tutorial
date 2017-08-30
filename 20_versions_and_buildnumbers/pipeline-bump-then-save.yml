@@ -16,6 +16,6 @@ jobs:
   serial: true
   plan:
   - get: resource-version
-    params: {pre: rc}
+    params: {bump: major}
   - put: resource-version
     params: {file: resource-version/number}

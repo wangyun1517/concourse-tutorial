@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export fly_target=${fly_target:-tutorial}
+export fly_target=${fly_target:-lite}
 export tutorial_concourse_url=${tutorial_concourse_url:-"http://10.58.111.191"}
 
 function ensure-rvm {

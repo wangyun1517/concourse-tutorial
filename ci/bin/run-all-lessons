@@ -5,7 +5,7 @@ set -eu
 source ci/lib/pretty-output.sh
 source ci/lib/shared-functions.sh
 
-export fly_target=${fly_target:-tutorial}
+export fly_target=${fly_target:-lite}
 
 announce-started
 ensure-rvm
